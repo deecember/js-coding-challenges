@@ -23,7 +23,7 @@ function detectWord(encryptedWord) {
 			hiddenWord = hiddenWord + letter;
 		}
 	}
-	console.log(hiddenWord)
+	console.log(hiddenWord);
 }
 detectWord("TZXCtBJUhASDaHLPnAYkHKKLMsOAY");
 detectWord("MBXCfASDIUoBKJrQEHO");

@@ -38,3 +38,20 @@ chatRoomUser(["Ashley"]);
 chatRoomUser(["Alex", "Blade"]);
 chatRoomUser(["Drax", "Chase", "Ashley", "Alex", "Blade"]);
 //--- Code goes here [Step 1] ---
+
+drinks = [
+    {name: "lemonade", price: 50},
+    {name: "lime", price: 10}
+]
+
+function sortDrinkByPrice(drinks){
+    for (let i = 0; i < drinks.length; i++) {
+        for (let j = 0; j < drinks.length; j++) {
+            if (sortNumbers[j] > sortNumbers[j + 1]) {
+                let temp = sortNumbers[j];
+                sortNumbers[j] = sortNumbers[j + 1];
+                sortNumbers[j + 1] = temp;
+            }
+        }
+    }
+}
