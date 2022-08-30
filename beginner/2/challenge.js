@@ -1,55 +1,40 @@
 /*
 STEP 1
 
-DE: Berechne die Summe der Zahlen in dem gegebenen Array und gebe diese in der Konsole aus.
+DE: Erstelle eine Funktion, welche: ● Bei keinem User -> "no one is online"
+                                    ● Bei 1 User -> "{user1} is online"
+                                    ● Bei 2 user -> "{user1} and {user2} are online"
+                                    ● Bei mehr als 2 User -> "{user1}, {user2} and {x} more are online"
+                                    in der Konsole ausgibt.
 
-EN: Calculate the sum of the numbers in the given array and print it to the console.
+EN: Create a function which prints: ● For no user -> "no one is online".
+                                    ● For 1 user -> "{user1} is online"
+                                    ● If 2 users -> "{user1} and {user2} are online"
+                                    ● If more than 2 users -> "{user1}, {user2} and {x} more are online"
+                                    in the console.
 */
 
 //--- Code goes here [Step 1] ---
-const numbers = [9, 3, 21, 14];
+function chatRoomUser(users){
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+}
+chatRoomUser([]);
+chatRoomUser(["Ashley"]);
+chatRoomUser(["Alex", "Blade"]);
+chatRoomUser(["Drax", "Chase", "Ashley", "Alex", "Blade"]);
 //--- Code goes here [Step 1] ---
-
-/*
-STEP 2
-
-DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht, ersetze alle Kommas mit '' und gebe das Ergebnis in der Konsole aus.
-
-EN: Reverse the values of the given array to form a sentence, replace all commas with '' and print the result to the console.
-*/
-
-//--- Code goes here [Step 2] ---
-const strings = ["World!", " ", "Hello"];
-
-
-
-
-
-//--- Code goes here [Step 2] ---
-
-/*
-STEP 3
-
-DE: Sortiere die Zahlen im gegebenen Array der größer nach, beginnend beim kleinsten Wert und gebe diese anschließend in der Konsole aus. (Bubble Sort)
-
-EN: Sort the numbers in the given array in order of size, starting with the smallest value, and print them to the console. (Bubble Sort)
-*/
-
-//--- Code goes here [Step 3] ---
-let sortNumbers = [9, 54, 3, 21, 7, 14];
-
-
-
-
-
-
-
-
-
-
-//--- Code goes here [Step 3] ---
