@@ -37,12 +37,12 @@ EN: Print a multiplication table 1-10 in the console.
 */
 
 //--- Code goes here [Step 3] ---
-let arr = [];
+let numbers = [];
 for(let i = 1; i <= 10; i++){
     for(let j = 1; j <= 10; j++){
-        arr.push(i*j);
+        numbers.push(i*j);
     }
-    console.log(arr.toString());
-    arr = [];
+    console.log(numbers.toString());
+    numbers = [];
 }
 //--- Code goes here [Step 3] ---
