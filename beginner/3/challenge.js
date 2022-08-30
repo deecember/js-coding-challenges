@@ -1,7 +1,7 @@
 /*
 STEP 1
 
-DE: Berechne die Summe der Zahlen in dem gegebenen Array und gebe diese in der Konsole aus.
+DE: Berechne die Summe der Zahlen in dem gegebenen Array und gib diese in der Konsole aus.
 
 EN: Calculate the sum of the numbers in the given array and print it to the console.
 */
@@ -18,7 +18,7 @@ const numbers = [9, 3, 21, 14];
 /*
 STEP 2
 
-DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht, ersetze alle Kommas mit '' und gebe das Ergebnis in der Konsole aus.
+DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht, ersetze alle Kommas mit '' und gib das Ergebnis in der Konsole aus.
 
 EN: Reverse the values of the given array to form a sentence, replace all commas with '' and print the result to the console.
 */
@@ -35,7 +35,7 @@ const strings = ["World!", " ", "Hello"];
 /*
 STEP 3
 
-DE: Sortiere die Zahlen im gegebenen Array der größer nach, beginnend beim kleinsten Wert und gebe diese anschließend in der Konsole aus. (Bubble Sort)
+DE: Sortiere die Zahlen im gegebenen Array der größer nach, beginnend beim kleinsten Wert und gib diese anschließend in der Konsole aus. (Bubble Sort)
 
 EN: Sort the numbers in the given array in order of size, starting with the smallest value, and print them to the console. (Bubble Sort)
 */

@@ -2,7 +2,7 @@
 STEP 1
 
 DE: Schreibe eine Funktion, welche die erzielten Punkte in einem Basketballspiel berechnet. Berücksichtige dabei die Anzahl der erzielten 2-Punkt-Würfe und 3-Punkt-Würfe.
-    Ermittle die endgültige Punktzahl für die Mannschaft und gebe diesen Wert auf der Konsole aus.
+    Ermittle die endgültige Punktzahl für die Mannschaft und gib diesen Wert auf der Konsole aus.
 
 EN: Write a function that calculates the points scored in a basketball game. Consider the number of 2-point shots and 3-point shots made.
     Determine the final score for the team and print this value to the console.

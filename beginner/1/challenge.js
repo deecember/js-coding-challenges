@@ -1,7 +1,7 @@
 /*
 STEP 1
 
-DE: Gebe die Zahlen 1-10 in der Konsole, beginnend bei 1 und endend bei 10, aus.
+DE: Gib die Zahlen 1-10 in chronologischer Reihenfolge in der Konsole aus.
 
 EN: Print the numbers 1-10 in the console starting by 1 and ending by 10.
 */
@@ -15,7 +15,7 @@ EN: Print the numbers 1-10 in the console starting by 1 and ending by 10.
 /*
 STEP 2
 
-DE: Erweitere die Zahlenausgabe bis 20 und gebe nur noch gerade Zahlen in der Konsole aus.
+DE: Erweitere die Zahlenausgabe bis 20 und gib nur noch gerade Zahlen in der Konsole aus.
 
 EN: Extend the number output to 20 and print only even numbers in the console.
 */
@@ -31,7 +31,7 @@ EN: Extend the number output to 20 and print only even numbers in the console.
 /*
 STEP 3
 
-DE: Gebe in der Konsole eine Multiplikationstabelle 1-10 aus.
+DE: Gib in der Konsole eine Multiplikationstabelle 1-10 aus.
 
 EN: Print a multiplication table 1-10 in the console.
 */
