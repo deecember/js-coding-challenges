@@ -1,7 +1,7 @@
 /*
 STEP 1
 
-DE: Schreibe eine Funktion, welche eine Zahl auf Oddish oder Evenish überprüft.
+DE: Schreibe eine Funktion, welche prüft, ob die Quersumme einer Zahl gerade oder ungerade ist.
 	Folgendes soll in der Konsole ausgegeben werden:
 	● "The number 95782 is Oddish"
 	● "The number 95783 is Evenish"

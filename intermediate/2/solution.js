@@ -15,7 +15,7 @@ EN: Write a function that checks a number for Oddish or Evenish.
 //--- Code goes here [Step 1] ---
 function oddishOrEvenish(number) {
 	let result = 0;
-	String(number).split("").map((num) => {
+	Array.from(number.toString()).map((num) => {
 		result += parseInt(num);
 	})
 	return "The number "+ number +" is "+result%2 ? "Oddish" : "Evenish";

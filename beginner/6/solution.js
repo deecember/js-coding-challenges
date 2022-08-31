@@ -59,7 +59,7 @@ function rockPaperScissors(game){
 	getWinner("Rock", "Scissors");
 	getWinner("Paper", "Rock");
 	getWinner("Scissors", "Paper");
-	if(result == null){
+	if(result === null){
 		return "It's a draw!";
 	}
 	return "The winner is "+result;
