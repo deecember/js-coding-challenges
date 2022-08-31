@@ -16,10 +16,10 @@ Example:
 function getDayFromDate(date){
 	return ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][new Date(date).getDay()];
 }
-console.log(getDayFromDate("8/31/2022"));
-console.log(getDayFromDate("12/3/2022"));
-console.log(getDayFromDate("12/31/2022"));
-console.log(getDayFromDate("8/1/2022"));
+console.log("It's a "+getDayFromDate("8/31/2022"));
+console.log("It's a "+getDayFromDate("12/3/2022"));
+console.log("It's a "+getDayFromDate("12/31/2022"));
+console.log("It's a "+getDayFromDate("8/1/2022"));
 //--- Code goes here [Step 1] ---
 
 /*
@@ -50,6 +50,38 @@ console.log(convertDate("2022-8-1"));
 /*
 STEP 3
 
+DE: Schreibe eine Funktion howUnlucky, die einen String mit einer Jahreszahl annimmt.
+	Die Funktion soll zurückgeben, wie viele Freitag, der 13. in einem bestimmten Jahr sind.
+	
+Beispiel:
+● howUnlucky("2022") -> 1
+
+EN: Create a function howUnlucky which takes a string with a year number.
+	The function should returns how many Friday 13th's there are in a given year.
+	
+Example:
+● howUnlucky("2022") -> 1
+*/
+
+//--- Code goes here [Step 3] ---
+function howUnlucky(year) {
+    let count = 0;
+    for (let month = 0; month < 12; month++) {
+        var date = new Date(year, month, 13);
+        if(date.getDay() == 5){
+          count++;
+       }
+    }
+    return count; 
+}
+console.log("There're "+howUnlucky("2026")+ " Friday 13th's");
+console.log("There're "+howUnlucky("2024")+ " Friday 13th's");
+console.log("There're "+howUnlucky("2022")+ " Friday 13th's");
+//--- Code goes here [Step 3] ---
+
+/*
+STEP 4
+
 DE: Schreibe eine Funktion numLeapYears, welche ein String mit 2 Jahreszahlen, getrennt mit '-' annimmt.
 	Die Funktion soll die Anzahl an Schaltjahren, von der angegebenen Jahresspanne, zurückgeben. Beachte: Die zwei Jahreszahlen sollen verdreht werden können (2000-2022 / 2022-2000).
 	
@@ -63,21 +95,21 @@ Example:
 ● numLeapYears("2000-2020") -> 6
 */
 
-//--- Code goes here [Step 3] ---
+//--- Code goes here [Step 4] ---
 function numLeapYears(years) {
 	years = years.split('-');
-	let counter = 0;
+	let count = 0;
 	if(years[0] > years[1]){
 		years.reverse();
 	}
 	for(let i = years[0]; i <= years[years.length - 1]; i++) {
 		if(new Date(i,1,29).getMonth() == 1) {
-			counter++;
+			count++;
 		}
 	}
-	return counter;
+	return count;
 }
-console.log(numLeapYears("1980-1984"));
-console.log(numLeapYears("2000-2020"));
-console.log(numLeapYears("2022-2012"));
-//--- Code goes here [Step 3] ---
+console.log("There're "+numLeapYears("1980-1984")+" leap years");
+console.log("There're "+numLeapYears("2000-2020")+" leap years");
+console.log("There're "+numLeapYears("2020-2000")+" leap years");
+//--- Code goes here [Step 4] ---
