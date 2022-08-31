@@ -33,3 +33,38 @@ function freeShipping(order){
 console.log("Free shipping: "+freeShipping({"Shampoo": 5.99, "Rubber Ducks": 15.99, "Soap": 3.99}));
 console.log("Free shipping: "+freeShipping({"Office PC": 599.99, "Laptop": 399.90}));
 //--- Code goes here [Step 2] ---
+
+/*
+STEP 3
+
+DE: Schreibe eine Funktion rockPaperScissors, die ein Objekt annimmt und ein Schere Stein Papier-Spiel verwaltet.
+
+Beispiel:
+● rockPaperScissors({"Alia": "Rock", "Holden": "Scissors"}); -> return "The winner is Alia"
+● rockPaperScissors({"Kaylee": "Papier", "Jubal": "Papier"}); -> return "It's a draw!"
+
+EN: Create a function rockPaperScissors which takes an object and manages a Rock Paper Scissors game.
+
+Example:
+● rockPaperScissors({"Alia": "Rock", "Holden": "Scissors"}); -> return "The winner is Alia"
+● rockPaperScissors({"Kaylee": "Paper", "Jubal": "Paper"}); -> return "It's a draw!"
+*/
+
+//--- Code goes here [Step 3] ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("RockPaperScissors: "+rockPaperScissors({"Alia": "Rock", "Holden": "Scissors"}));
+console.log("RockPaperScissors: "+rockPaperScissors({"Kaylee": "Paper", "Jubal": "Paper"}));
+console.log("RockPaperScissors: "+rockPaperScissors({"Serenity": "Scissors", "Neo": "Rock"}));
+//--- Code goes here [Step 3] ---
