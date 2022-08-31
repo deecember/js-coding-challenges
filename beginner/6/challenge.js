@@ -12,8 +12,8 @@ EN: Create a function inkLevels that takes an object and returns the number of p
 
 
 
-console.log(inkLevels({"cyan": 23, "magenta": 12, "yellow": 10, "black": 0}));
-console.log(inkLevels({"cyan": 531, "magenta": 398, "yellow": 456, "black": 527}));
+console.log("You can print "+inkLevels({"cyan": 23, "magenta": 12, "yellow": 10, "black": 0})+" pages.");
+console.log("You can print "+inkLevels({"cyan": 531, "magenta": 398, "yellow": 456, "black": 527})+" pages.");
 //--- Code goes here [Step 1] ---
 
 /*
@@ -30,6 +30,6 @@ EN: Create a function that determines whether a shopping order is eligible for f
 function freeShipping(order){
 
 }
-console.log(freeShipping({"Shampoo": 5.99, "Rubber Ducks": 15.99, "Soap": 3.99}));
-console.log(freeShipping({"Office PC": 599.99, "Laptop": 399.90}));
+console.log("Free shipping: "+freeShipping({"Shampoo": 5.99, "Rubber Ducks": 15.99, "Soap": 3.99}));
+console.log("Free shipping: "+freeShipping({"Office PC": 599.99, "Laptop": 399.90}));
 //--- Code goes here [Step 2] ---
