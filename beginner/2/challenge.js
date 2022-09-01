@@ -23,13 +23,13 @@ STEP 2
 DE: Erstelle eine Funktion, welche: ● Bei keinem User -> "no one is online"
                                     ● Bei 1 User -> "{user1} is online"
                                     ● Bei 2 user -> "{user1} and {user2} are online"
-                                    ● Bei mehr als 2 User -> "{user1}, {user2} and {x} more are online"
+                                    ● Bei mehr als 2 User -> "{user1}, {user2} and {x} more are online" (x = Anzahl übriger User)
                                     in der Konsole ausgibt.
 
 EN: Create a function which prints: ● For no user -> "no one is online".
                                     ● For 1 user -> "{user1} is online"
                                     ● If 2 users -> "{user1} and {user2} are online"
-                                    ● If more than 2 users -> "{user1}, {user2} and {x} more are online"
+                                    ● If more than 2 users -> "{user1}, {user2} and {x} more are online" (x = remaining user count)
                                     in the console.
 */
 

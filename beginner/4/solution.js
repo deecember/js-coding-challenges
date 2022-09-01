@@ -48,7 +48,7 @@ function detectWord(encryptedWord) {
 	let hiddenWord = "";
 	for(let letter of encryptedWord){
 		if (letter === letter.toLowerCase()){
-			hiddenWord = hiddenWord + letter;
+			hiddenWord += letter;
 		}
 	}
 	console.log(hiddenWord);

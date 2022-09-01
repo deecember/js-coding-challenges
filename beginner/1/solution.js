@@ -31,9 +31,9 @@ for(let i = 1; i <= 20; i++) {
 /*
 STEP 3
 
-DE: Gebe in der Konsole eine Multiplikationstabelle 1-10 aus.
+DE: Gib in der Konsole eine Multiplikationstabelle 1-10 (d.h. 1x1, 1x2, 1x3, ..., 10x10) aus.
 
-EN: Print a multiplication table 1-10 in the console.
+EN: Print a multiplication table 1-10 (e.g. 1x1, 1x2, 1x3, ..., 10x10) in the console.
 */
 
 //--- Code goes here [Step 3] ---
