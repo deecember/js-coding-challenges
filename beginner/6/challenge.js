@@ -37,13 +37,13 @@ console.log("Free shipping: "+freeShipping({"Office PC": 599.99, "Laptop": 399.9
 /*
 STEP 3
 
-DE: Schreibe eine Funktion rockPaperScissors, die ein Objekt annimmt und ein Schere Stein Papier-Spiel verwaltet.
+DE: Schreibe eine Funktion rockPaperScissors, die ein Objekt annimmt und ein Schere Stein Papier-Spiel mit 2 Spielern verwaltet.
 
 Beispiel:
 ● rockPaperScissors({"Alia": "Rock", "Holden": "Scissors"}); -> return "The winner is Alia"
 ● rockPaperScissors({"Kaylee": "Papier", "Jubal": "Papier"}); -> return "It's a draw!"
 
-EN: Create a function rockPaperScissors which takes an object and manages a Rock Paper Scissors game.
+EN: Create a function rockPaperScissors which takes an object and manages a Rock Paper Scissors game with 2 players.
 
 Example:
 ● rockPaperScissors({"Alia": "Rock", "Holden": "Scissors"}); -> return "The winner is Alia"
