@@ -1,9 +1,9 @@
 /*
 STEP 1
 
-DE: Gib die Zahlen 1-10 in chronologischer Reihenfolge in der Konsole aus. Verwende dabei eine Schleife.
+DE: Gib die Zahlen 1-10 in chronologischer Reihenfolge in der Konsole aus.
 
-EN: Print the numbers 1-10 in the console using a loop .
+EN: Print the numbers 1-10 in the console.
 */
 
 //--- Code goes here [Step 1] ---
