@@ -24,6 +24,6 @@ function spelling(word){
 	}
 	return spelledWord;
 }
-console.log(spelling("Schnitzel"));
+console.log(spelling("Happy"));
 console.log(spelling("JavaScript"));
 //--- Code goes here [Step 1] ---

@@ -9,12 +9,12 @@ EN: Write a function that calculates the points scored in a basketball game. Con
 */
 
 //--- Code goes here [Step 1] ---
-function points(twoPointers, threePointers){
+function calculatePoints(twoPointers, threePointers){
 
 }
-points(1, 1);
-points(33, 9);
-points(38, 8);
+calculatePoints(1, 1);
+calculatePoints(33, 9);
+calculatePoints(38, 8);
 //--- Code goes here [Step 1] ---
 
 /*
