@@ -1,7 +1,7 @@
 /*
 STEP 1
 
-DE: Gebe die Zahlen 1-10 in der Konsole, beginnend bei 1 und endend bei 10, aus. Verwende dabei eine Schleife.
+DE: Gebe die Zahlen 1-10 in der Konsole, beginnend bei 1 und endend bei 10, aus.
 
 EN: Print the numbers 1-10 in the console using a loop.
 */
