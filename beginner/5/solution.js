@@ -22,8 +22,8 @@ function spelling(word){
 	for(let i = 1; i <= word.length; i++){
 		spelledWord.push(word.slice(0, i));
 	}
-	return spelledWord;
+	console.log(spelledWord);
 }
-console.log(spelling("Happy"));
-console.log(spelling("JavaScript"));
+spelling("Happy");
+spelling("JavaScript");
 //--- Code goes here [Step 1] ---
