@@ -24,6 +24,6 @@ Example:
 
 
 
-
-
+spelling("Happy");
+spelling("JavaScript");
 //--- Code goes here [Step 1] ---
