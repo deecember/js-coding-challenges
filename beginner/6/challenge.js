@@ -64,7 +64,9 @@ Example:
 
 
 
+/*
 console.log("RockPaperScissors: "+rockPaperScissors({"Alia": "Rock", "Holden": "Scissors"}));
 console.log("RockPaperScissors: "+rockPaperScissors({"Kaylee": "Paper", "Jubal": "Paper"}));
 console.log("RockPaperScissors: "+rockPaperScissors({"Serenity": "Scissors", "Neo": "Rock"}));
+*/
 //--- Code goes here [Step 3] ---

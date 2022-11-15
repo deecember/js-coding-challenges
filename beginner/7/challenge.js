@@ -41,10 +41,12 @@ Example:
 
 
 
+/*
 console.log(convertDate("August 31, 2022"));
 console.log(convertDate("12-03-2022"));
 console.log(convertDate("12/31/2022"));
 console.log(convertDate("2022-8-1"));
+*/
 //--- Code goes here [Step 2] ---
 
 /*
@@ -74,9 +76,11 @@ Example:
 
 
 
+/*
 console.log("There're "+howUnlucky("2026")+ " Friday 13th's");
 console.log("There're "+howUnlucky("2024")+ " Friday 13th's");
 console.log("There're "+howUnlucky("2022")+ " Friday 13th's");
+*/
 //--- Code goes here [Step 3] ---
 
 /*
@@ -109,7 +113,9 @@ Example:
 
 
 
+/*
 console.log("There're "+numLeapYears("1980-1984")+" leap years");
 console.log("There're "+numLeapYears("2000-2020")+" leap years");
 console.log("There're "+numLeapYears("2020-2000")+" leap years");
+*/
 //--- Code goes here [Step 4] ---

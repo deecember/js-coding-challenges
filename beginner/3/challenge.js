@@ -18,9 +18,9 @@ const numbers = [9, 3, 21, 14];
 /*
 STEP 2
 
-DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht, ersetze alle Kommas mit '' und gib das Ergebnis in der Konsole aus.
+DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht (Hello World!) und gibt diesen in der Konsole aus. Es dürfen keine Kommas mit ausgegeben werden.
 
-EN: Reverse the values of the given array to form a sentence, replace all commas with '' and print the result to the console.
+EN: Reverse the values of the given array to form a sentence (Hello World!) and output it to the console. No commas are allowed to be output.
 */
 
 //--- Code goes here [Step 2] ---
