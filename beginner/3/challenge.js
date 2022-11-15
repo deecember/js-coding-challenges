@@ -17,10 +17,8 @@ const numbers = [9, 3, 21, 14];
 
 /*
 STEP 2
-
-DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht, ersetze alle Kommas mit '' und gib das Ergebnis in der Konsole aus.
-
-EN: Reverse the values of the given array to form a sentence, replace all commas with '' and print the result to the console.
+DE: Drehe die Werte des gegebenen Arrays um, sodass ein Satz entsteht (Hello World!) und gibt diesen in der Konsole aus. Es dürfen keine Kommas mit ausgegeben werden.
+EN: Reverse the values of the given array to form a sentence (Hello World!) and output it to the console. No commas are allowed to be output.
 */
 
 //--- Code goes here [Step 2] ---
@@ -34,9 +32,7 @@ const strings = ["World!", " ", "Hello"];
 
 /*
 STEP 3
-
 DE: Sortiere die Zahlen im gegebenen Array der größer nach, beginnend beim kleinsten Wert und gib diese anschließend in der Konsole aus. (Bubble Sort)
-
 EN: Sort the numbers in the given array in order of size, starting with the smallest value, and print them to the console. (Bubble Sort)
 */
 
